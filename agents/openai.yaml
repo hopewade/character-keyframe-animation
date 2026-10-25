@@ -1,0 +1,4 @@
+interface:
+  display_name: "人物关键帧动画"
+  short_description: "从一致的卡通人物形象出发，制作完整头颈关键帧、离线补帧与网页鼠标跟随动画"
+  default_prompt: "使用 $character-keyframe-animation，根据我的照片或已确认角色制作一致的卡通人物、完整姿态关键帧和自然衔接的网页动画。"

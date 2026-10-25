@@ -1,0 +1,24 @@
+{
+  "keyframes": [
+    {"file": "../assets/left.png", "position": -1,
+     "landmarks": {"left_eye": [285, 325], "right_eye": [415, 325], "nose": [355, 400]},
+     "transform": {"scale": 1, "translation": [0, 0]}},
+    {"file": "../assets/front.png", "position": 0,
+     "landmarks": {"left_eye": [300, 325], "right_eye": [430, 325], "nose": [365, 405]},
+     "transform": {"scale": 1, "translation": [0, 0]}},
+    {"file": "../assets/right.png", "position": 1,
+     "landmarks": {"left_eye": [315, 325], "right_eye": [445, 325], "nose": [375, 400]},
+     "transform": {"scale": 1, "translation": [0, 0]}}
+  ],
+  "front_index": 1,
+  "output_size": 768,
+  "flow_size": 384,
+  "steps_per_pair": 32,
+  "quality": 90,
+  "allow_upscale": false,
+  "minimum_jacobian": 0.2,
+  "scaling_squaring": true,
+  "regions": [
+    {"name": "whole_character", "bounds": [0, 0, 1, 1], "weight": 1}
+  ]
+}
